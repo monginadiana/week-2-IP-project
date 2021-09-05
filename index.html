@@ -16,7 +16,15 @@
     <main>
         <div>
             <span>Enter your date of birth</span>
-            <input id="dob" name="dob" value='' type="date" 
+            <input id="dob" name="dob" value='' type="date" min="1980-01-01" max="2015-01-01"/>
+        </div>
+        <div>
+            <span>Select your gender</span>
+            <select id="gender" name="gender">
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
         </div>
     </main>
 </body>
