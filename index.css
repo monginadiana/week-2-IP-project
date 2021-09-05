@@ -6,6 +6,16 @@
 header{
     color: white;
     text-align: center;
+    
+}
+header h1{
+    color: orange;
+}
+header p{
+    width: 500px;
+    margin-left: 30%;
+    padding-top: 20px;
+
 }
 main{
     color: white;
@@ -15,7 +25,7 @@ main{
     width: 200px;
     height: 30px;
     margin-left: 550px;
-    margin-top: 5;
+    margin-top: 50px;
 }
 .birth input{
     background: orange;
