@@ -27,6 +27,7 @@ header p{
     height: 40px;
     margin-left: 450px;
     margin-top: 30px;
+    font-size: large;
     
 }
 .birth input{
@@ -39,7 +40,11 @@ header p{
 .select{
     margin-top: 20px;
     margin-left: 10px;
+    font-size: large;
+    height: 20px;
+    font-size: large;
 }
+
 .submit input{
     margin-top: 20px;
     background: green;
