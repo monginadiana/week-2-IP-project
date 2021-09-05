@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    border: 0;
+    background-image: url(https://wallpaperaccess.com/full/16692.jpg);
+}
+header{
+    color: white;
+    text-align: center;
+}
+main{
+    color: white;
+    text-align: center;
+}
+.birth{
+    width: 200px;
+    height: 30px;
+    margin-left: 550px;
+    margin-top: 5;
+}
+.birth input{
+    background: orange;
+}

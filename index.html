@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>Akan Name Generation</title>
 </head>
 <body>
@@ -14,11 +15,11 @@
         <P>The Akan names are generated from Ghanian cultures. The first name of the child is the day name, which corresponds to the of the week they were born.</P>
     </header>
     <main>
-        <div>
+        <div class="birth">
             <span>Enter your date of birth</span>
             <input id="dob" name="dob" value='' type="date" min="1980-01-01" max="2015-01-01"/>
         </div>
-        <div>
+        <div class= "select">
             <span>Select your gender</span>
             <select id="gender" name="gender">
                 <option value="">Select</option>
@@ -26,7 +27,7 @@
                 <option value="female">Female</option>
             </select>
         </div>
-        <div>
+        <div class=" submit">
             <input id="submit" type="submit" name="Submit" />
         </div>
         <div class="user-name">
