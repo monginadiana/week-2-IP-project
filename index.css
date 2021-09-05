@@ -25,8 +25,20 @@ main{
     width: 200px;
     height: 30px;
     margin-left: 550px;
-    margin-top: 50px;
+    margin-top: 30px;
+    
 }
 .birth input{
     background: orange;
+    padding-top: 10px;
+}
+.select{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.submit{
+    margin-top: 20px;
+}
+.user-name{
+    margin-top: 20px;
 }
