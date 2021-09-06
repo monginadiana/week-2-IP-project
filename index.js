@@ -1,6 +1,6 @@
 var dob = '';
 var gender = '';
-var submitInput = document.getElementById('submit');
+var submitInput = document.getElementById ('submit');
         var userNameInput = document.getElementById('user-name');
 function isDobValid(dob) {
     return true;
@@ -26,7 +26,7 @@ function start() {
 }
 function checkAllTheValues() {
     if (name.length > 2 && dob && gender) {
-        submitInput.disabled = false;
+     
     }
 }
 function getDayOfTheWeekFromDob(dob) {
@@ -39,8 +39,6 @@ function getName(dayOfWeek, gender) {
         var name = girlNames[dayOfWeek]
         return name;
     }
-
-
     var boyNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame']
     var name = boyNames[dayOfWeek]
     return name;

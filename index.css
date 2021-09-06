@@ -1,13 +1,22 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     border: 0;
     background-image: url(https://wallpaperaccess.com/full/16692.jpg);
     font-family: poppins;
 }
+body{
+    align-items: center;
+}
+.Intro{
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    padding: 50px;
+}
 header{
     color: white;
     text-align: center;
-    
 }
 header h1{
     color: orange;
@@ -21,30 +30,41 @@ header p{
 .main{
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 .birth{
-    width: 500px;
-    height: 40px;
+    
     margin-left: 450px;
     margin-top: 30px;
     font-size: large;
     
 }
 .birth input{
-    background: orange;
+    background: green;
     padding-top: 10px;
     margin-top: 5px;
     margin-left: 10px;
+    width:150px;
+    height: 20px;
     
 }
 .select{
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 40%;
     font-size: large;
     height: 20px;
+    width: 200px;
+    
+}
+.select span{
+    height: 30px;
     font-size: large;
 }
-
+#gender{
+    width:200px;
+    height:30px;
+    color: green;
+}
 .submit input{
     margin-top: 20px;
     background: green;
