@@ -10,14 +10,15 @@ The application will help take user's birthday and calculate the day of the week
 * change current directory to where you want it cloned
 * type git clone https://github.com/monginadiana/week-2-IP-project
 * press enter to create a local clone
-* This is the live link for viewing my project <a href= "https://monginadiana.github.io/week-2-IP-project/"> Week 2 Independent project</a>
-##BDD
-*choose your year of birth, day and date from the calender.
-*Select gender type
-*submit the the inputs, 
-*the program will check the conditions at the backend to make a decision
-*the akan name is displayed and the day of the week
-No known bugs yet 
+* This is the live link for viewing my project <a href= "https://monginadiana.github.io/week-2-IP-project/"> Week 2 Independent project</a><br>.
+##Known Bugs<br>
+*No known bugs yet<br>
+##BDD<br>
+*choose your year of birth, day and date from the calender.<br>
+*Select gender type<br>
+*submit the the inputs, <br>
+*the program will check the conditions at the backend to make a decision<br>
+*the akan name is displayed and the day of the week<br>
 ## Technologies Used
 *Html <br>*css<br> *javascript
 ## Support and contact details
