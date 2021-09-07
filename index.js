@@ -37,11 +37,11 @@ function getName(dayOfWeek, gender) {
     if (gender == 'female') {
         var girlNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama']
         var name = girlNames[dayOfWeek]
-        return name;
+        return name + " " + dayOfWeek;
     }
     var boyNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame']
     var name = boyNames[dayOfWeek]
-    return name;
+    return name + " " + dayOfWeek;
 }
 function whenSubmitButtonIsClicked() {
     var dayOfWeek = getDayOfTheWeekFromDob(dob)
