@@ -50,24 +50,30 @@ header p{
     height: 30px;
 }
 .birth >span,.select>span{
-    font-size: 30px;
+    font-size: 40px;
 }
 .select{
-    margin-top: 20px;
-    margin-left: 40%;
-    font-size: large;
+    /* margin-top: 20px; */
+    /* margin-left: 40%; */
+    font-size: 30px;
     height: 20px;
-    width: 200px;
+    position: relative;
+    left: 15px;
+    top: -30px;
+    
+  
+    /* width: 200px; */
     
 }
-.select span{
-    height: 30px;
-    font-size: large;
-}
+/* .select span{
+    height: 50px;
+    font-size: 30px;
+} */
 #gender{
     width:200px;
-    height:30px;
+    height:40px;
     color: green;
+    font-size: 20px;
 }
 .submit input{
     margin-top: 20px;
