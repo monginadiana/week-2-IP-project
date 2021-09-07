@@ -37,7 +37,9 @@ header p{
     margin-left: 450px;
     margin-top: 30px;
     font-size: large;
-    
+    position: relative;
+    left: -200px;
+    top: -50px;
 }
 .birth input{
     background: green;
@@ -45,8 +47,10 @@ header p{
     margin-top: 5px;
     margin-left: 10px;
     width:150px;
-    height: 20px;
-    
+    height: 30px;
+}
+.birth >span,.select>span{
+    font-size: 30px;
 }
 .select{
     margin-top: 20px;
