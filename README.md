@@ -12,7 +12,7 @@ The application will help take user's birthday and calculate the day of the week
 * press enter to create a local clone
 * This is the live link for viewing my project <a href= "https://monginadiana.github.io/week-2-IP-project/"> Week 2 Independent project</a><br>.
 ##Known Bugs<br>
-*No known bugs yet<br>
+  *No known bugs yet<br>
 ##BDD<br>
 *choose your year of birth, day and date from the calender.<br>
 *Select gender type<br>
